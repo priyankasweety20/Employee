@@ -78,7 +78,7 @@ public class EmployeeController {
 	}
 
 //	*******************************************
-	@GetMapping(value = "/hike")
+	@GetMapping(value = "/gethike")
 	public List<Employee> getHike() {
 		return empser.getHike();
 	}
